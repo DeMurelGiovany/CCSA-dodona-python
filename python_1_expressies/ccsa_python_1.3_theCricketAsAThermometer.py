@@ -1,0 +1,5 @@
+cpm = int(input("Input chirps per minute as an integer: "))
+fahrenheit = 50 + ((cpm -40)/4)
+celsius = 10 + ((cpm -40)/7)
+print("temperature (Fahrenheit):",fahrenheit)
+print("temperature (Celsius):",celsius)
